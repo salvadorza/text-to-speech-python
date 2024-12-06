@@ -123,8 +123,6 @@ def salir():
 raiz = tk.Tk()
 raiz.geometry("800x600")
 raiz.title("Generador de Audios")
-icon = tk.PhotoImage(file="/mnt/c/Users/salva/OneDrive/Escritorio/descarga.png")
-raiz.iconphoto(True, icon)
 idiomas = {
     "Español": "es",
     "Inglés": "en",
